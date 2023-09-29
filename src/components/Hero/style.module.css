@@ -1,0 +1,63 @@
+.containerHeader {
+  background: url("../../../public//assets/hero/hero.png") center;
+
+  width: 100%;
+}
+
+.filterHeader {
+  background: rgba(0, 0, 0, 0.5);
+
+  width: 100%;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  min-height: 80vh;
+  position: relative;
+}
+
+.title {
+  margin: 0;
+  color: white;
+}
+
+@keyframes arrowMove {
+  0%,
+  100% {
+    transform: translate(0);
+  }
+  25% {
+    transform: translate(0, 5%);
+  }
+  75% {
+    transform: translate(0, -5%);
+  }
+}
+.btnScroll {
+  bottom: 5%;
+  position: absolute;
+  width: 82px;
+  height: 82px;
+
+  border-radius: 50%;
+  background: none;
+  color: white;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: arrowMove 2.5s infinite linear;
+}
+
+.btnScroll::after {
+  content: "";
+  background: url("../../../public/assets/hero/Arrow\ 1.svg") no-repeat center;
+
+  width: 20px;
+  height: 20px;
+
+  position: absolute;
+  top: 10px;
+}
