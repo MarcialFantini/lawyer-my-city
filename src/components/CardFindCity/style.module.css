@@ -1,0 +1,26 @@
+.article {
+  border-radius: 10px;
+  border: 0.8px solid #d8e0ef;
+  background: #fff;
+  box-shadow: 8px 8px 14px 0px rgba(79, 93, 119, 0.08);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.picture {
+  width: 100%;
+
+  aspect-ratio: 2;
+  overflow: hidden;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text {
+  padding: 10px;
+}
