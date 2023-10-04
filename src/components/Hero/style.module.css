@@ -1,5 +1,5 @@
 .containerHeader {
-  background: url("../../../public//assets/hero/hero.png") center;
+  background: url("../../../public//assets/hero/hero.png") center fixed;
 
   width: 100%;
 }

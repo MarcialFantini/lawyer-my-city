@@ -18,10 +18,7 @@ function Navbar() {
         <Image src={logo} alt="Logo of web"></Image>
       </picture>
 
-      <ul
-        style={{ transform: `translate(0,${active ? -100 : 0}%)` }}
-        className={style.listLinks}
-      >
+      <ul style={{ top: `-${active ? 0 : 100}%` }} className={style.listLinks}>
         <li className={style.containerLink}>
           <Link className={style.link} href="">
             Home
