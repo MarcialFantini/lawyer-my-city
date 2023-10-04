@@ -1,0 +1,59 @@
+.sectionTouch {
+  width: 90%;
+  max-width: 1200px;
+
+  border-radius: 12px;
+  background: #eaeef1;
+
+  margin: 30px auto;
+  padding: 70px 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 4.2rem;
+  color: #4f5d77;
+  margin: 0;
+}
+
+.text {
+  color: #64728e;
+  font-size: 1.8rem;
+
+  margin: 15px 0 50px 0;
+}
+
+.containerInput {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  max-width: 700px;
+}
+
+.input {
+  font-size: 1.8rem;
+  padding: 10px;
+  border: none;
+
+  width: 100%;
+}
+
+.btn {
+  font-size: 1.8rem;
+  padding: 10px 20px;
+  color: white;
+
+  border-radius: 6px;
+  background: linear-gradient(
+    180deg,
+    #598aba 0%,
+    rgba(70, 127, 182, 0.67) 100%
+  );
+  box-shadow: 8px 8px 12px 0px rgba(93, 139, 185, 0.12);
+
+  border: none;
+  cursor: pointer;
+}

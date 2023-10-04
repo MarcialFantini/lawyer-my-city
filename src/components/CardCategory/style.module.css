@@ -29,3 +29,8 @@
   font-size: 2.2rem;
   margin: 0;
 }
+@media (min-width: 450px) and (max-width: 768px) {
+  .last {
+    display: none;
+  }
+}

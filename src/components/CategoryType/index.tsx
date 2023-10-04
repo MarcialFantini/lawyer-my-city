@@ -24,8 +24,13 @@ function CategoryType() {
       </p>
 
       <div className={style.containerGrid}>
-        {categoryType.map((item) => {
-          return <CardCategory title={item}></CardCategory>;
+        {categoryType.map((item, index) => {
+          return (
+            <CardCategory
+              last={index === categoryType.length - 1}
+              title={item}
+            ></CardCategory>
+          );
         })}
       </div>
     </section>

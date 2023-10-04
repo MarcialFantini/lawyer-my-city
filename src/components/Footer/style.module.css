@@ -1,0 +1,61 @@
+.footer {
+  width: 100%;
+  height: auto;
+  background: #131e1f;
+}
+
+.socialNet {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.logoLawyer {
+  filter: invert();
+}
+
+.containerAll {
+  width: 90%;
+
+  max-width: 1200px;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+  margin: 100px auto;
+
+  gap: 30px;
+}
+
+.columnFirst {
+  border-right: white solid 1px;
+  padding: 20px;
+}
+
+.text {
+  color: #b2bbc2;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 137.5% */
+}
+
+.list {
+  padding: 0;
+  list-style: none;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.list :first-child {
+  color: white;
+  font-size: 1.8rem;
+}
+
+.list li {
+  font-size: 1.6rem;
+  color: #c8dfe1;
+}
